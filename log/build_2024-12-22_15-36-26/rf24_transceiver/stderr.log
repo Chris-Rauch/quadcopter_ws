@@ -1,0 +1,15 @@
+In file included from [01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/src/rf24_transceiver_node.cpp:1[m[K:
+[01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/include/rf24_transceiver/rf24_transceiver_node.hpp:38:15:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriber[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+   38 |       rclcpp::[01;31m[KSubscriber[m[K<std_msgs::msg::String>::SharedPtr command_subscriber_;
+      |               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/src/rf24_transceiver_node.cpp:[m[K In constructor ‘[01m[Krf24_transceiver::RF24Transceiver::[01;32m[KRF24Transceiver[m[K()[m[K’:
+[01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/src/rf24_transceiver_node.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+   13 |     [01;31m[Kcommand_subscriber_[m[K = this->create_subscription<std_msgs::msg::String>("commands", 10,
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kcount_subscribers[m[K
+[01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/src/rf24_transceiver_node.cpp:23:38:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   23 |     timer_ = this->create_wall_timer([01;31m[K500ms[m[K,timer_callback);
+      |                                      [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/rf24_transceiver_node.dir/build.make:76: CMakeFiles/rf24_transceiver_node.dir/src/rf24_transceiver_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rf24_transceiver_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

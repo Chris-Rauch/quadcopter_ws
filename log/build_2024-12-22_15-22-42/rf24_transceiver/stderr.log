@@ -1,0 +1,36 @@
+In file included from [01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/src/rf24_transceiver_node.cpp:1[m[K:
+[01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/include/rf24_transceiver/rf24_transceiver_node.hpp:38:15:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriber[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+   38 |       rclcpp::[01;31m[KSubscriber[m[K<std_msgs::msg::String>::SharedPtr command_subscriber_;
+      |               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/include/rf24_transceiver/rf24_transceiver_node.hpp:43:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   43 | }[01;31m[K [m[K// namespace rf24_tranceiver
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/src/rf24_transceiver_node.cpp:5:34:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Krf24_transceiver::RF24Transceiver::[01;32m[KRF24Transceiver[m[K()[m[K’ is not in namespace enclosing ‘[01m[Krf24_transceiver::RF24Transceiver[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+    5 | RF24Transceiver::RF24Transceiver([01;31m[K)[m[K
+      |                                  [01;31m[K^[m[K
+[01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/src/rf24_transceiver_node.cpp:5:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Krf24_transceiver::RF24Transceiver::[01;32m[KRF24Transceiver[m[K()[m[K’
+    5 | [01;31m[KRF24Transceiver[m[K::RF24Transceiver()
+      | [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/include/rf24_transceiver/rf24_transceiver_node.hpp:18:9:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Krf24_transceiver::RF24Transceiver::[01;32m[KRF24Transceiver[m[K(rf24_transceiver::RF24Transceiver&&)[m[K’
+   18 |   class [01;36m[KRF24Transceiver[m[K : public rclcpp::Node {
+      |         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/include/rf24_transceiver/rf24_transceiver_node.hpp:18:9:[m[K [01;36m[Knote: [m[K                ‘[01m[Krf24_transceiver::RF24Transceiver::[01;32m[KRF24Transceiver[m[K(const rf24_transceiver::RF24Transceiver&)[m[K’
+[01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/include/rf24_transceiver/rf24_transceiver_node.hpp:21:16:[m[K [01;36m[Knote: [m[K                ‘[01m[Krf24_transceiver::RF24Transceiver::[01;32m[KRF24Transceiver[m[K(const rclcpp::NodeOptions&)[m[K’
+   21 |       explicit [01;36m[KRF24Transceiver[m[K(const rclcpp::NodeOptions &options = rclcpp::NodeOptions());
+      |                [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/include/rf24_transceiver/rf24_transceiver_node.hpp:18:9:[m[K [01;36m[Knote: [m[K‘[01m[Kclass rf24_transceiver::RF24Transceiver[m[K’ defined here
+   18 |   class [01;36m[KRF24Transceiver[m[K : public rclcpp::Node {
+      |         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/src/rf24_transceiver_node.cpp:31:82:[m[K [01;31m[Kerror: [m[Kdefinition of ‘[01m[Kvoid rf24_transceiver::RF24Transceiver::[01;32m[Kcommand_callback[m[K(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’ is not in namespace enclosing ‘[01m[Krf24_transceiver::RF24Transceiver[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   31 | void RF24Transceiver::command_callback(const std_msgs::msg::String::SharedPtr msg[01;31m[K)[m[K {
+      |                                                                                  [01;31m[K^[m[K
+[01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/src/rf24_transceiver_node.cpp:50:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   50 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/include/rf24_transceiver/rf24_transceiver_node.hpp:17:28:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   17 | namespace rf24_transceiver [01;36m[K{[m[K
+      |                            [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/rf24_transceiver_node.dir/build.make:76: CMakeFiles/rf24_transceiver_node.dir/src/rf24_transceiver_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rf24_transceiver_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

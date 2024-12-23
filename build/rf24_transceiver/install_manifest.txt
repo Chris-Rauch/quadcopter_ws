@@ -1,0 +1,16 @@
+/home/chris/Workspaces/quadcopter_ws/install/rf24_transceiver/lib/rf24_transceiver/rf24_transceiver_node
+/home/chris/Workspaces/quadcopter_ws/install/rf24_transceiver/share/ament_index/resource_index/package_run_dependencies/rf24_transceiver
+/home/chris/Workspaces/quadcopter_ws/install/rf24_transceiver/share/ament_index/resource_index/parent_prefix_path/rf24_transceiver
+/home/chris/Workspaces/quadcopter_ws/install/rf24_transceiver/share/rf24_transceiver/environment/ament_prefix_path.sh
+/home/chris/Workspaces/quadcopter_ws/install/rf24_transceiver/share/rf24_transceiver/environment/ament_prefix_path.dsv
+/home/chris/Workspaces/quadcopter_ws/install/rf24_transceiver/share/rf24_transceiver/environment/path.sh
+/home/chris/Workspaces/quadcopter_ws/install/rf24_transceiver/share/rf24_transceiver/environment/path.dsv
+/home/chris/Workspaces/quadcopter_ws/install/rf24_transceiver/share/rf24_transceiver/local_setup.bash
+/home/chris/Workspaces/quadcopter_ws/install/rf24_transceiver/share/rf24_transceiver/local_setup.sh
+/home/chris/Workspaces/quadcopter_ws/install/rf24_transceiver/share/rf24_transceiver/local_setup.zsh
+/home/chris/Workspaces/quadcopter_ws/install/rf24_transceiver/share/rf24_transceiver/local_setup.dsv
+/home/chris/Workspaces/quadcopter_ws/install/rf24_transceiver/share/rf24_transceiver/package.dsv
+/home/chris/Workspaces/quadcopter_ws/install/rf24_transceiver/share/ament_index/resource_index/packages/rf24_transceiver
+/home/chris/Workspaces/quadcopter_ws/install/rf24_transceiver/share/rf24_transceiver/cmake/rf24_transceiverConfig.cmake
+/home/chris/Workspaces/quadcopter_ws/install/rf24_transceiver/share/rf24_transceiver/cmake/rf24_transceiverConfig-version.cmake
+/home/chris/Workspaces/quadcopter_ws/install/rf24_transceiver/share/rf24_transceiver/package.xml

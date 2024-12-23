@@ -1,0 +1,18 @@
+[0.009s] Invoking command in '/home/chris/Workspaces/quadcopter_ws/build/rf24_transceiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chris/Workspaces/quadcopter_ws/build/rf24_transceiver -- -j12 -l12
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/rf24_transceiver_node.dir/src/rf24_transceiver_node.cpp.o[0m
+[1.663s] In file included from [01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/src/rf24_transceiver_node.cpp:1[m[K:
+[1.664s] [01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/include/rf24_transceiver/rf24_transceiver_node.hpp:38:15:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscriber[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+[1.664s]    38 |       rclcpp::[01;31m[KSubscriber[m[K<std_msgs::msg::String>::SharedPtr command_subscriber_;
+[1.664s]       |               [01;31m[K^~~~~~~~~~[m[K
+[1.671s] [01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/src/rf24_transceiver_node.cpp:[m[K In constructor ‘[01m[Krf24_transceiver::RF24Transceiver::[01;32m[KRF24Transceiver[m[K()[m[K’:
+[1.672s] [01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/src/rf24_transceiver_node.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+[1.672s]    13 |     [01;31m[Kcommand_subscriber_[m[K = this->create_subscription<std_msgs::msg::String>("commands", 10,
+[1.672s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.672s]       |     [32m[Kcount_subscribers[m[K
+[1.692s] [01m[K/home/chris/Workspaces/quadcopter_ws/src/rf24_transceiver/src/rf24_transceiver_node.cpp:23:38:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[1.692s]    23 |     timer_ = this->create_wall_timer([01;31m[K500ms[m[K,timer_callback);
+[1.692s]       |                                      [01;31m[K^~~~~[m[K
+[3.204s] gmake[2]: *** [CMakeFiles/rf24_transceiver_node.dir/build.make:76: CMakeFiles/rf24_transceiver_node.dir/src/rf24_transceiver_node.cpp.o] Error 1
+[3.204s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rf24_transceiver_node.dir/all] Error 2
+[3.204s] gmake: *** [Makefile:146: all] Error 2
+[3.207s] Invoked command in '/home/chris/Workspaces/quadcopter_ws/build/rf24_transceiver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chris/Workspaces/quadcopter_ws/build/rf24_transceiver -- -j12 -l12

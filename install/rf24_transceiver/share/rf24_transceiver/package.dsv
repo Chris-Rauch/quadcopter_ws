@@ -1,0 +1,8 @@
+source;share/rf24_transceiver/hook/cmake_prefix_path.ps1
+source;share/rf24_transceiver/hook/cmake_prefix_path.dsv
+source;share/rf24_transceiver/hook/cmake_prefix_path.sh
+source;share/rf24_transceiver/local_setup.bash
+source;share/rf24_transceiver/local_setup.dsv
+source;share/rf24_transceiver/local_setup.ps1
+source;share/rf24_transceiver/local_setup.sh
+source;share/rf24_transceiver/local_setup.zsh

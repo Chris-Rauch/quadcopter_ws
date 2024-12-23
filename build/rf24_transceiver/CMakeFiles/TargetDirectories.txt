@@ -1,0 +1,10 @@
+/home/chris/Workspaces/quadcopter_ws/build/rf24_transceiver/CMakeFiles/uninstall.dir
+/home/chris/Workspaces/quadcopter_ws/build/rf24_transceiver/CMakeFiles/rf24_transceiver_uninstall.dir
+/home/chris/Workspaces/quadcopter_ws/build/rf24_transceiver/CMakeFiles/rf24_transceiver_node.dir
+/home/chris/Workspaces/quadcopter_ws/build/rf24_transceiver/CMakeFiles/test.dir
+/home/chris/Workspaces/quadcopter_ws/build/rf24_transceiver/CMakeFiles/edit_cache.dir
+/home/chris/Workspaces/quadcopter_ws/build/rf24_transceiver/CMakeFiles/rebuild_cache.dir
+/home/chris/Workspaces/quadcopter_ws/build/rf24_transceiver/CMakeFiles/list_install_components.dir
+/home/chris/Workspaces/quadcopter_ws/build/rf24_transceiver/CMakeFiles/install.dir
+/home/chris/Workspaces/quadcopter_ws/build/rf24_transceiver/CMakeFiles/install/local.dir
+/home/chris/Workspaces/quadcopter_ws/build/rf24_transceiver/CMakeFiles/install/strip.dir
