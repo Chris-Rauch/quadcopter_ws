@@ -1,6 +1,0 @@
-[submodule "src/command_and_control/include/RF24"]
-	path = src/command_and_control/include/RF24
-	url = https://github.com/nRF24/RF24.git
-[submodule "src/command_and_control/include/WiringPi"]
-	path = src/command_and_control/include/WiringPi
-	url = https://github.com/Chris-Rauch/WiringPi
