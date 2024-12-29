@@ -5,13 +5,14 @@
 #ifndef RF24_TRANSCEIVER_HPP
 #define RF24_TRANSCEIVER_HPP
 
-#include <cstdlib>
-#include "rclcpp/rclcpp.h"
-#include "std_msgs/msg/String"
-#include "/home/chris/rf24libs/RF24/RF24.h"
+#include <wiringPi.h>
+#include "rclcpp/rclcpp.hpp"
+#include "interfaces/msg/telemetry_msg.hpp"
+#include "interfaces/srv/send_command.hpp"
+#include "RF24/RF24.h"
 
 const int SPI_SPEED = 2000000;
-const char* PIPE[2] = {"1Node", "2Node"};
+const uint8_t PIPE[2][6] = {"1Node", "2Node"};
 const int PAYLOAD_SIZE = 32;
 
 namespace command_and_control {
@@ -29,16 +30,17 @@ namespace command_and_control {
      */
     RF24Transceiver();
 
-    // set up the command service server
-    void transmit_command(const std::shared_ptr<interfaces::srv::MotorCommand::Request> request,
-        std::shared_ptr<interfaces::srv::MotorCommand::Response> response);
+    /**
+     * @brief 
+     * 
+     * @param request 
+     * @param response 
+     */
+    void transmit_command(const std::shared_ptr<interfaces::srv::SendCommand::Request> request,
+        std::shared_ptr<interfaces::srv::SendCommand::Response> response);
 
   private:
-    void _receiverCallback(); 
-    void _configureListenMode();
-    void _configureWriteMode();
-  private:
-    rclcpp::Publisher<interfaces::msg::TelemetryMsg>::SharedPtr telem_publisher_;
+    rclcpp::Publisher<interfaces::msg::RawDataMsg>::SharedPtr raw_data_publisher_;
     RF24 radio_;
   };
 

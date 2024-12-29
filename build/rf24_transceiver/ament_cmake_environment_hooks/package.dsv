@@ -1,4 +1,0 @@
-source;share/rf24_transceiver/local_setup.bash
-source;share/rf24_transceiver/local_setup.dsv
-source;share/rf24_transceiver/local_setup.sh
-source;share/rf24_transceiver/local_setup.zsh

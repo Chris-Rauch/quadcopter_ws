@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/command_svc.dir/src/command_svc.cpp.o -o command_svc 
