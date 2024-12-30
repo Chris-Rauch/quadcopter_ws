@@ -1,9 +1,11 @@
 #define CE_PIN 22
 #define CSN_PIN 0
-#define IRQ_PIN 8
+#define IRQ_PIN 40
 
 #ifndef RF24_TRANSCEIVER_HPP
 #define RF24_TRANSCEIVER_HPP
+
+#include <chrono>
 
 #include <wiringPi.h>
 #include "rclcpp/rclcpp.hpp"
@@ -38,11 +40,15 @@ namespace command_and_control {
      */
     void transmit_command(const std::shared_ptr<interfaces::srv::SendCommand::Request> request,
         std::shared_ptr<interfaces::srv::SendCommand::Response> response);
+    
 
   private:
+    rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<interfaces::msg::RawDataMsg>::SharedPtr raw_data_publisher_;
+    rclcpp::Service<interfaces::srv::SendCommand>::SharedPtr send_command_service_;
     RF24 radio_;
   };
+
 
 } // namespace command_and_control
 
